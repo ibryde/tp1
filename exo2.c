@@ -17,10 +17,9 @@ int main(void)
 {
     int a = 4;
     int b = -2;
-
     int old_a = a;
     int old_b = b;
-
+swap(&a,&b);
     printf("%d changed to %d ; and %d changed to %d\n", old_a, a, old_b, b);
 
     return 0;
