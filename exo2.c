@@ -7,6 +7,9 @@
  */
 void swap(int* a, int* b)
 {
+	int var = *b;
+	*b = *a;
+	*a = var;
     // FIXME: Some code was deleted here...
 }
 
