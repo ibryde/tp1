@@ -9,6 +9,8 @@ char *my_strcpy(char *dst, const char *src)
 
 int main(void)
 {
-	char dst[0] = {};
-	printf("%s\n", my_strcpy(dst,"a"));
+	char dst[100] = { 'a', 'b', 'c', 'd', 'e', '2', '3' };
+
+	printf("%s\n", my_strcpy(dst
+                ,"12345"));
 }
